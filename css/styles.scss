@@ -1,8 +1,18 @@
 footer {
     text-align: center;
     font-size: x-small;
+    color:white;
+    margin-top: 1em;
 }
 .nav-link {
-    margin-left: 4em;
+    margin-left: 3em;
     margin-right: auto;
+}
+body > p {
+    margin: 2em;
+    padding: 1em;
+    font-size: large;
+}
+body > .jumbotron {
+    color:white;
 }
