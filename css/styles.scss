@@ -5,8 +5,8 @@ footer {
     margin-top: 1em;
 }
 .nav-link {
-    margin-left: 3em;
-    margin-right: auto;
+    margin-right: 3em;
+    margin-left: auto;
 }
 body > p {
     margin: 2em;
@@ -15,4 +15,24 @@ body > p {
 }
 body > .jumbotron {
     color:white;
+}
+div > .row {
+    padding: 1em;
+}
+nav > .navbar-brand {
+    padding-left: 1em;
+}
+.about-header {
+    color: #28B62C;
+    margin-left: 1.5em;
+}
+img {
+    height: 200px;
+    width:auto;
+    margin: .5em;
+}
+@media (max-width: 768px) {
+    .nav-item {
+        padding-left: 1em;
+    }
 }
