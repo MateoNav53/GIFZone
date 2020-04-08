@@ -34,27 +34,25 @@
     </div>
     <div class="container" id="app">
         <div class="row">
-            <div class="col-4 offset-2 text-center">
+            <div class="col-md-4 offset-2 text-center">
                 <form class="form-inline my-2 my-lg-0" id="search-form">
                     <input class="form-control mr-sm-2" id="search-input" type="search"
                         placeholder="Search GIFs" aria-label="Search GIFs">
                     <button class="btn btn-success my-2 my-sm-0" id="search-button" type="submit">Search</button>
                 </form>
             </div>
-            <div class="col-4 text-center">
-                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                    <button type="button" class="btn btn-success" id="number-of-gifs">Number of GIFs</button>
-                    <div class="btn-group" role="group">
-                        <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                            <a class="dropdown-item" href="#">5</a>
-                            <a class="dropdown-item" href="#">10</a>
-                            <a class="dropdown-item" href="#">20</a>
-                            <a class="dropdown-item" href="#">30</a>
-                        </div>
+            <div class="col-md-5 text-center">
+                <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle gif-number" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Number of GIFs
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <option value="5" class="dropdown-item">5</option>
+                      <option value="10" class="dropdown-item">10</option>
+                      <option value="20" class="dropdown-item">20</option>
+                      <option value="30" class="dropdown-item">30</option>
                     </div>
-                </div>
+                  </div>
             </div>
             <div class="container-fluid col-12 text-center">
                 <div id="gifs" class="mt-5">
