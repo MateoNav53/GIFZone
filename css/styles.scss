@@ -40,7 +40,7 @@ img {
     color: #28B62C;
 
 }
-@media (max-width: 768px) {
+@media (min-width: 320px) {
     .nav-item {
         padding-left: 1.25em;
     }
