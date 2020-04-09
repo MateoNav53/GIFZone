@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap");
 footer {
   text-align: center;
   font-size: small;
@@ -19,6 +20,7 @@ body > p {
 
 body > .jumbotron {
   color: white;
+  font-family: "Baloo Thambi 2";
 }
 
 div > .row {
