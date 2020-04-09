@@ -8,7 +8,7 @@ $(document).ready(function () {
             var gifs = response.data
             $('#gifs').empty();
             for (gif of gifs){
-                $('#gifs').append(`<a href='${gif.images.original.url}' download><img src='${gif.images.original.url}'></a>`);
+                $('#gifs').append(`<a href='${gif.images.original.url}' target="_blank"><img src='${gif.images.original.url}'></a>`);
             };
         });
         xhr.fail(function() {
