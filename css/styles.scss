@@ -1,8 +1,9 @@
 footer {
     text-align: center;
-    font-size: x-small;
+    font-size: small;
     color:white;
-    margin-top: 1em;
+    margin-top: 3em;
+    padding: .75em;
 }
 .nav-link {
     margin-right: 3em;
@@ -27,12 +28,17 @@ nav > .navbar-brand {
     margin-left: 1.5em;
 }
 img {
-    height: 200px;
-    width:auto;
+    width: 250px;
+    height: auto;
     margin: .5em;
+}
+.body-text {
+    font-size: large;
+    color: #28B62C;
+
 }
 @media (max-width: 768px) {
     .nav-item {
-        padding-left: 1em;
+        padding-left: 1.25em;
     }
 }
